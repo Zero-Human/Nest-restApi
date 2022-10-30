@@ -11,4 +11,3 @@ export class CreateMovieDto {
   @IsString({ each: true })
   readonly genres: string[];
 }
-
